@@ -15,6 +15,12 @@
 
     <!-------------------- Google font style sheets ----------------------------->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap"
+      rel="stylesheet"
+    />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Anton&display=swap"
@@ -22,6 +28,10 @@
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Akshar:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <link
       href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@200&display=swap"
       rel="stylesheet"
@@ -33,9 +43,14 @@
   <body>
     <!-------------------------- Navbar Area ------------------------------------>
     <div class="mynav">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <nav
+        class="navbar navbar-expand-lg navbar-light"
+        style="background-color: #ffe365"
+      >
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">DAYANAND SCHOOL</a>
+          <a class="navbar-brand" style="color: #003249" href="#"
+            >DAYANAND SCHOOL</a
+          >
           <button
             class="navbar-toggler"
             type="button"
@@ -49,24 +64,50 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item navbar-spacing">
-                <a class="nav-link active" aria-current="page" href="#">HOME</a>
+              <li class="nav-item navbar-spacing" style="padding-left: 3rem">
+           
+             <a
+                  class="nav-link"
+                  style="color: #003249"
+                  aria-current="page"
+                  href="#"
+                  >HOME</a
+                >
               </li>
               <li class="nav-item navbar-spacing">
-                <a class="nav-link" href="#">ABOUT US</a>
+                <a
+                  class="nav-link"
+                  style="color: #003249"
+                  href="/pages/about.html"
+                  >ABOUT US</a
+                >
               </li>
               <li class="nav-item navbar-spacing">
-                <a class="nav-link" href="#">ADMISSIONS</a>
+                <a
+                  class="nav-link"
+                  style="color: #003249"
+                  href="/pages/admin.html"
+                  >ADMISSIONS</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#"
+                <a
+                  class="nav-link"
+                  style="color: #003249"
+                  aria-current="page"
+                  href="/pages/facility.html"
                   >FACILITIES</a
                 >
               </li>
               <li class="nav-item navbar-spacing">
-                <a class="nav-link" href="#">DOWNLOAD</a>
+                <a
+                  class="nav-link"
+                  style="color: #003249"
+                  href="/pages/download.html"
+                  >DOWNLOAD</a
+                >
               </li>
-            </ul>
+            </ul></div>
             <form class="d-flex search">
               <input
                 class="form-control me-2"
@@ -82,7 +123,165 @@
         </div>
       </nav>
     </div>
+    <!----------------------------------------crousel--------------------------------------------->
+    <div
+      id="carouselExampleIndicators"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="/assets/slide-1.avif"
+            class="d-block w-100"
+            alt="..."
+            width="500"
+            height="400"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="/assets/slider-2.jpg"
+            class="d-block w-100"
+            alt="..."
+            width="500"
+            height="400"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="/assets/slide-3.jpg"
+            class="d-block w-100"
+            alt="..."
+            width="500"
+            height="400"
+          />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!----------------------------------content----------------------------------->
+    <div class="activity container-fluid" ><h2>ACTIVITIES & CLUBS</h2>
+    <p>Extracurricular activities at Sci High offer students a variety of opportunities to become gain additional skills outside of the classroom.</p><p>The activities happen during breakfast, homeroom, and after school.</p> </div>
+   <div class="activity-box"><h2 class="activity container-fluid">DANCE & MUSIC</h2>
+    <div class="container my-4">
 
+      <div class="row featurette d-flex justify-content-center align-items-center ">
+          <div class="col-md-7 order-md-2">
+            
+            <p class="activity">Music & Dance is an extremely important subject for all children to learn and can lead to better brain development, increases in human connection, and even stress relief. As music is removed from schools, children will no longer receive these benefits unless they enroll in private lessons, which is much too expensive for some families to afford.
+
+                     </div>
+          <div class="col-md-5 order-md-1">
+              <img src="/assets/music-1.jpg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="400" height="400""> 
+            <!-- <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg> -->
+    
+          </div>
+      </div>
+      <div class="row featurette d-flex justify-content-center align-items-center ">
+          <div class="col-md-7 order-md-1">
+          
+            <p class="activity">Here are five reasons why music education in schools is important:
+              Music stimulates brain development in children
+              Dance & music is a way to connect with other people
+              Music integrates many different subjects
+              Dance & Music teaches discipline
+              Music can relieve stress</div>
+          <div class="col-md-5 order-md-1">
+<img src="/assets/music-2.avif" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="400" height="400""
+>           
+          </div>
+      </div>
+      <div class="row featurette d-flex justify-content-center align-items-center ">
+          <div class="col-md-7 order-md-2">
+            
+            <p class="activity">Just a few of the benefits increased exercise dancing can give you are; reduced stress levels, improved relaxation, stronger bones & muscles, weight control and a healthier brain!
+</p>
+          </div>
+          <div class="col-md-5 order-md-1">
+              <img src="/assets/dance-1.jpg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="400" height="400" 
+              ></div>
+      </div>
+      <!----------------------------------------------------------sports--------------------------------------------------->
+     <br>
+     <br>
+     <br>
+     <br> <h2 class="activity ">SPORTS</h2>
+      <div class="container my-4">
+
+        <div class="row featurette d-flex justify-content-center align-items-center ">
+            <div class="col-md-7 order-md-2">
+              
+              <p class="activity">
+                Sports programs have been an integral part of our school curriculum. Sports increase a student’s performance not only in the classroom but also in his or her life.
+        </p>        
+                       </div>
+            <div class="col-md-5 order-md-1">
+                <img src="/assets/sports-1.jpg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="400" height="400"> <!-- <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg> -->
+      
+            </div>
+        </div>
+        <div class="row featurette d-flex justify-content-center align-items-center ">
+            <div class="col-md-7 order-md-1">
+            
+              <p class="activity">Sport is a vigorous physical activity which involves physical exertion and skill, generally played by two teams against each other by following the set number of rules in order to win or defeat other team.</div>
+            <div class="col-md-5 order-md-1">
+  <img src="/assets/sports-2.avif" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="400" height="400" >           
+            </div>
+        </div>
+        <div class="row featurette d-flex justify-content-center align-items-center ">
+            <div class="col-md-7 order-md-2">
+              
+              <p class="activity">To commemorate the event our School organised various sporting events Long Jump, Sack race, Athletics games, Hurdle Race, Tug of war etc. Nursery to X standard students took part in this adventure sports
+                It was a moment of pride for the school that our students bagged medals in Individual and team games.
+                Sports meet activity ended with medal distribution by management.</p>
+            </div>
+            <div class="col-md-5 order-md-1">
+                <img src="/assets/sports-3.jpg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="400" height="400" 
+                ></div>
+        </div></div>
+     
+ </div>
+ 
     <!-- Optional JavaScript; choose one of the two! -->
 
     <script
