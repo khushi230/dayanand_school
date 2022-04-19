@@ -1,11 +1,11 @@
 .navbar {
   background-color: #012a4a;
-  height: 100px;
+  height: 64px;
 }
 .navbar-brand {
   color: #bebec9;
   font-family: "Anton", sans-serif;
-  font-size: 40px;
+  font-size: 35px;
 }
 .nav-link {
   color: #bebec9;
@@ -14,11 +14,11 @@
   font-weight: 100;
 }
 .navbar-spacing {
-  margin-left: 2rem;
+  white-space: nowrap;
 }
-.search {
-  margin-left: 10rem;
-}
+/* .search {
+  align-self: flex-end;
+} */
 .nav-link:hover {
-  color: ;
+  color: red;
 }
