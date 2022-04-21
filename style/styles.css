@@ -14,6 +14,7 @@
   text-align: center;
   padding-top: 2rem;
   font-family: "Akshar", sans-serif;
+  color: #003249;
 }
 .activity-box {
   background-color: #ffe253;
@@ -23,8 +24,19 @@
   text-align: center;
 }
 .message-box {
+  padding-left: 5rem;
+  padding-top: 5rem;
+  height: 45rem;
+  width: 10rem;
   background-color: #003249;
-  height: 20rem;
-  width: 20%;
-  padding-left: 20rem;
+}
+.card {
+  background-color: #ffe253;
+  align-items: center;
+  height: 45rem;
+  margin: 4rem;
+}
+.activity2 {
+  font-family: "Akshar", sans-serif;
+  color: #003249;
 }
